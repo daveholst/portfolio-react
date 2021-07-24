@@ -1,25 +1,27 @@
 import React from 'react';
-import { ReactComponent as DevDotToIcon } from '../assets/icons/dev-dot-to.svg';
-import { ReactComponent as GitHubIcon } from '../assets/icons/github.svg';
-import { ReactComponent as LinkedInIcon } from '../assets/icons/linkedin.svg';
-import { ReactComponent as TwitterIcon } from '../assets/icons/twitter.svg';
+import DevDotToIcon from '../assets/icons/dev-dot-to.svg';
+import GitHubIcon from '../assets/icons/github.svg';
+import LinkedInIcon from '../assets/icons/linkedin.svg';
+import TwitterIcon from '../assets/icons/twitter.svg';
 
 function Header() {
   return (
-    <header id="social-icons">
+    <header id="header-bar">
       <span>daveholst.dev</span>
       <div id="icons-wrapper">
         <a href="https://github.com/daveholst">
-          <GitHubIcon />
+          {/* <GitHubIcon /> */}
+          <img src={GitHubIcon} alt="" />
         </a>
         <a href="https://www.linkedin.com/in/daveholst/">
-          <LinkedInIcon />
+          {/* <LinkedInIcon /> */}
+          <img src={LinkedInIcon} alt="" />
         </a>
         <a href="https://twitter.com/daveyholst">
-          <TwitterIcon />
+          <img src={TwitterIcon} alt="" />
         </a>
         <a href="https://dev.to/daveholst">
-          <DevDotToIcon />
+          <img src={DevDotToIcon} alt="dev.to icon" />
         </a>
       </div>
     </header>
