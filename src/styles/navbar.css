@@ -1,0 +1,22 @@
+/* nav bar */
+#navbar {
+  z-index: 100;
+  overflow: hidden;
+  height: 5vh;
+  background-color: rgba(65, 64, 64, 0.9);
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.25rem;
+  text-transform: lowercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #f2f2f2;
+  opacity: 0.9;
+  text-align: center;
+  padding: 1vh;
+  text-decoration: none;
+}
