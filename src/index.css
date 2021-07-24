@@ -1,14 +1,32 @@
+:root {
+  /* page layout variables */
+  --nav-bar-height: 40px;
+  /* color theme for easy changes */
+  --stitching-color: rgb(226, 226, 226);
+  --badge-container-color: rgba(43, 77, 49, 0.85);
+  --nav-bar-color: rgb(219, 41, 85);
+  --text-color: #1d3557;
+  --background-color: #f1faee;
+}
+/*
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  } */
+
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    /* -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 

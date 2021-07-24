@@ -1,0 +1,47 @@
+/* hero/business card viewport container */
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  height: 90vh;
+}
+
+.hero-container img {
+  margin: 5vw;
+  max-height: 90vh;
+  max-width: 40vw;
+  opacity: 80%;
+  /* border: 5px solid #f2f2f2; */
+  border-radius: 8%;
+}
+
+.hero-text {
+  margin: 5vw;
+}
+
+.hero-buttons {
+  text-align: center;
+}
+
+.hero-buttons button {
+  display: inline-block;
+  width: 16vw;
+  background-color: var(--background-color); /* Green */
+  border: none;
+  color: var(--text-color);
+  margin: 5px;
+  padding: 8px 32px;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border: 2px solid var(--text-color);
+  border-radius: 10px;
+}
+
+.hero-buttons button:hover {
+  background-color: var(--text-color);
+  color: var(--background-color);
+  cursor: pointer;
+}
