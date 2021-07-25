@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.1944e5c2.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.5af5dd3c.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.5af5dd3c.chunk.js.map",
+    "main.css": "/portfolio-react/static/css/main.3289ca18.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.07d73f82.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.07d73f82.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.76f6ebfb.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.76f6ebfb.js.map",
-    "static/js/2.d421a80e.chunk.js": "/portfolio-react/static/js/2.d421a80e.chunk.js",
-    "static/js/2.d421a80e.chunk.js.map": "/portfolio-react/static/js/2.d421a80e.chunk.js.map",
+    "static/js/2.45828c1c.chunk.js": "/portfolio-react/static/js/2.45828c1c.chunk.js",
+    "static/js/2.45828c1c.chunk.js.map": "/portfolio-react/static/js/2.45828c1c.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
-    "static/css/main.1944e5c2.chunk.css.map": "/portfolio-react/static/css/main.1944e5c2.chunk.css.map",
-    "static/js/2.d421a80e.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.d421a80e.chunk.js.LICENSE.txt",
+    "static/css/main.3289ca18.chunk.css.map": "/portfolio-react/static/css/main.3289ca18.chunk.css.map",
+    "static/js/2.45828c1c.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.45828c1c.chunk.js.LICENSE.txt",
     "static/media/dev-dot-to.6698cc0c.svg": "/portfolio-react/static/media/dev-dot-to.6698cc0c.svg",
     "static/media/github.16a9304e.svg": "/portfolio-react/static/media/github.16a9304e.svg",
     "static/media/headshot-sml.b7c8a11d.jpeg": "/portfolio-react/static/media/headshot-sml.b7c8a11d.jpeg",
     "static/media/linkedin.03f1d164.svg": "/portfolio-react/static/media/linkedin.03f1d164.svg",
+    "static/media/screenshot-weather.ef8e2340.jpg": "/portfolio-react/static/media/screenshot-weather.ef8e2340.jpg",
     "static/media/twitter.e7886f46.svg": "/portfolio-react/static/media/twitter.e7886f46.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.76f6ebfb.js",
-    "static/js/2.d421a80e.chunk.js",
-    "static/css/main.1944e5c2.chunk.css",
-    "static/js/main.5af5dd3c.chunk.js"
+    "static/js/2.45828c1c.chunk.js",
+    "static/css/main.3289ca18.chunk.css",
+    "static/js/main.07d73f82.chunk.js"
   ]
 }
