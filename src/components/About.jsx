@@ -6,9 +6,9 @@ import PropTypes from 'prop-types';
 function About({ navIsSticky }) {
   return (
     <section id="about-section">
-      {/* <a className="anchor" id="about"> */}
+      <span className="nav-padder" id="about" />
+
       <h2
-        id="about"
         style={{
           marginTop: navIsSticky ? '7vh' : '2vh',
         }}

@@ -4,8 +4,8 @@ import React from 'react';
 function Skills() {
   return (
     <section id="skills-section">
-      {/* <a className="anchor" id="skills" /> */}
-      <h2 id="skills">skills.</h2>
+      <span className="nav-padder" id="skills" />
+      <h2>skills.</h2>
       <p>
         Over my years of working with computers, I have picked up a range of
         skills that are either self-taught, or learnt in a formal institution.
