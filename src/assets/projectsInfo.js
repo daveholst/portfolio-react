@@ -1,4 +1,6 @@
 import weatherScreenshot from './screenshots/screenshot-weather.jpg';
+import employeeTrackerScreenshot from './screenshots/screenshot-readme-gen.jpeg';
+import quizScreenshot from './screenshots/screenshot-quiz.jpg';
 
 const projectsInfo = [
   {
@@ -41,7 +43,28 @@ const projectsInfo = [
     githubUrl: 'https://github.com/daveholst/weather-dashboard',
     description:
       'A frontend app that collects weather forecast information from the Open Weather Map API. Locations can be saved and managed through local storage. I have also incorporated a windy.com widget to show wind direction and velocity in the area.',
+    tech: 'JavaScript, HTML, CSS, bulma CSS, openweathermap API, windy.com wind widget, localstorage',
     thumbnail: weatherScreenshot,
+  },
+  {
+    index: 5,
+    title: 'Employee Tracker',
+    liveUrl: 'https://www.youtube.com/watch?v=B5VpM4a9l6E',
+    githubUrl: 'https://github.com/daveholst/employee-tracker',
+    description:
+      'This is an inquirer based CLI app that interacts with a mySQL database and allows the user to manage a team of Employees. All employees, Roles and Managers have CRUD operations. Department budget reports can also be generated.',
+    tech: 'node.js, inquirer, mySQL, mysql2',
+    thumbnail: employeeTrackerScreenshot,
+  },
+  {
+    index: 6,
+    title: 'JavaScript Quiz',
+    liveUrl: 'https://daveholst.github.io/coding-quiz/',
+    githubUrl: 'https://github.com/daveholst/coding-quiz',
+    description:
+      'A JavaScript quiz app for users to test their knowledge of the language. High scores are saved and managed in local storage. This web app does not use a styling framework and has been made in pure CSS.',
+    tech: 'JavaScript, HTML, CSS, localstorage',
+    thumbnail: quizScreenshot,
   },
 ];
 
