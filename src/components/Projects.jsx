@@ -4,15 +4,15 @@ import '../styles/projects.css';
 // bring in project information
 import projectsInfo from '../assets/projectsInfo';
 
-// const projectsContainerStyle = {
-//   display: 'grid',
-//   gridTemplateColumns: 'repeat(3, minmax(0, 1fr))',
-//   gridTemplateRows: `repeat(${projectsInfo.length}, minmax(0, 1fr))`,
-//   margin: '0px -5px',
-// };
-
-function Projects(props) {
-  return <ProjectCard cardInfo={projectsInfo[0]} />;
+function Projects() {
+  return (
+    <section id="projects-section">
+      <h2>projects.</h2>
+      {projectsInfo.map((project) => (
+        <ProjectCard key={project.index} cardInfo={project} />
+      ))}
+    </section>
+  );
 }
 
 export default Projects;

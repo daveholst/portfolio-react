@@ -25,7 +25,6 @@ function App() {
       } else {
         setNavIsSticky(false);
       }
-      console.log(window.pageYOffset);
     };
   }, []);
 
