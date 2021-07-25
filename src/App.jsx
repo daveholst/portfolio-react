@@ -5,11 +5,13 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
 
 import './app.css';
 import './styles/header.css';
 import './styles/hero.css';
-import Projects from './components/Projects';
 
 function App() {
   // set a state to track Y axis/offset
@@ -39,6 +41,8 @@ function App() {
         <About navIsSticky={navIsSticky} />
         <Skills />
         <Projects />
+        <Resume />
+        <Contact />
       </div>
     </main>
   );
