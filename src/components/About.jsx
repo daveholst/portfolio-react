@@ -1,11 +1,20 @@
 import React from 'react';
-import '../styles/about.css';
+import PropTypes from 'prop-types';
 
-function About() {
+// import '../styles/about.css';
+
+function About({ navIsSticky }) {
   return (
     <section id="about-section">
       {/* <a className="anchor" id="about"> */}
-      <h2 id="about">about.</h2>
+      <h2
+        id="about"
+        style={{
+          marginTop: navIsSticky ? '7vh' : '2vh',
+        }}
+      >
+        about.
+      </h2>
       {/* </a> */}
       <p>
         I'm a 32 years old country kid with a passion for technology and the
@@ -35,5 +44,10 @@ function About() {
     </section>
   );
 }
+
+// add proptype to stop linter from yelling!
+About.propTypes = {
+  navIsSticky: PropTypes.bool,
+};
 
 export default About;

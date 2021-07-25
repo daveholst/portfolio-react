@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import PropTypes from 'prop-types';
 import '../styles/navbar.css';
 
-function Navbar() {
+function Navbar({ navIsSticky }) {
+  // const { navIsSticky } = props;
+
   return (
-    <nav id="navbar">
+    <nav className={navIsSticky ? 'sticky' : ''} id="navbar">
       <a href="#home"> ~/home </a>
       <a href="#about"> ~/about</a>
       <a href="#skills"> ~/skills</a>
@@ -13,5 +16,10 @@ function Navbar() {
     </nav>
   );
 }
+
+// add proptype to stop linter from yelling!
+Navbar.propTypes = {
+  navIsSticky: PropTypes.bool,
+};
 
 export default Navbar;
