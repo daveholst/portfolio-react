@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import '../styles/navbar.css';
 
 function Navbar({ navIsSticky }) {
-  // const { navIsSticky } = props;
-
   return (
     <nav className={navIsSticky ? 'sticky' : ''} id="navbar">
       <a href="#home"> ~/home </a>

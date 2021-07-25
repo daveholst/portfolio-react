@@ -1,0 +1,13 @@
+.projects-container-grid {
+  display: flex;
+  /* height: 70vw; */
+
+  margin: 0px -5px;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 0px -5px;
+
+}

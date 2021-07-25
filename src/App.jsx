@@ -9,6 +9,7 @@ import Skills from './components/Skills';
 import './app.css';
 import './styles/header.css';
 import './styles/hero.css';
+import Projects from './components/Projects';
 
 function App() {
   // set a state to track Y axis/offset
@@ -19,14 +20,11 @@ function App() {
     // get navbar height
     const navbarHeight = window.document.getElementById('navbar').clientHeight;
     window.onscroll = () => {
-      console.log('pageYOffset', window.pageYOffset);
-      console.log('innerHeight', window.innerHeight);
       if (window.pageYOffset >= window.innerHeight - navbarHeight) {
         setNavIsSticky(true);
       } else {
         setNavIsSticky(false);
       }
-      // setYOffset(window.pageYOffset);
       console.log(window.pageYOffset);
     };
   }, []);
@@ -41,6 +39,7 @@ function App() {
       <div className="page-content">
         <About navIsSticky={navIsSticky} />
         <Skills />
+        <Projects />
       </div>
     </main>
   );
