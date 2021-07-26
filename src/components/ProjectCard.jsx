@@ -34,10 +34,10 @@ function ProjectCard(props) {
           style={{ opacity: thumbnailHovered ? 1 : 0 }}
           className="project-link-buttons"
         >
-          <a href={`"${liveUrl}"`}>
+          <a href={liveUrl}>
             <button type="button">Live Site</button>
           </a>
-          <a href={`"${githubUrl}"`}>
+          <a href={githubUrl}>
             <button type="button">GitHub Repo</button>
           </a>
         </div>
