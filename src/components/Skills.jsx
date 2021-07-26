@@ -15,9 +15,7 @@ function Skills() {
         JavaScript, node.js, CSS 3, HTML 5, SQL, Arduino C++, Basic Python, YAML
       </p>
       <h3>frameworks & libraries.</h3>
-      <p className="no-top-p">
-        Express, handlebars, Bulma, bootstrap, charts.js
-      </p>
+      <p className="no-top-p">React, Express, handlebars, Bulma, bootstrap,</p>
       <h3>databases.</h3>
       <p className="no-top-p">mySQL, mongoDB, SQLite, Sequelize, mongoose,</p>
       <h3>paradigms.</h3>

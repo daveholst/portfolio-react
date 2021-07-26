@@ -43,7 +43,6 @@ p {
 }
 
 a {
-  /* text-decoration: none; */
   color: var(--text-color);
 }
 /* internal links offset */
@@ -66,4 +65,80 @@ a {
   padding: 18px;
   margin: auto;
   max-width: 1100px;
+}
+
+/* mobile styling */
+
+/* mobile settings iphone and under.*/
+@media (max-width: 750px) {
+  h1 {
+    font-size: 1.5rem;
+    width: 90%;
+  }
+
+  /* remove margin offset for floating sidebar */
+  main {
+    margin: 0;
+  }
+
+  /* change section margins to maximise screen area usage */
+  section {
+    margin: 0px;
+    padding: 10px;
+  }
+  /* move nav links to top left  */
+
+  #home a {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+
+  #icons-wrapper {
+    display: none;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  .hero-container {
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .hero-container img {
+    width: 30vh;
+    margin: 0px;
+    margin-top: 100px;
+  }
+
+  .hero-text {
+    margin: 20px;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-buttons button {
+    margin: 10px auto;
+    width: 200px;
+  }
+  /* get arrow to scale with width and center on hero page */
+
+  /* change projects grid to column */
+  .project-container {
+    display: block;
+
+    /* height: 70vw;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-template-rows: repeat(9, minmax(0, 1fr)); */
+  }
+  .project-thumbnail {
+    display: block;
+    height: 70vw;
+    /* margin: 2px; */
+  }
 }
