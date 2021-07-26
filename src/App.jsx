@@ -17,7 +17,7 @@ function App() {
   // set a state to track Y axis/offset
   const [navIsSticky, setNavIsSticky] = useState(false);
 
-  // bind event listener to state managment with useEffect hook
+  // bind event listener to state management with useEffect hook
   useEffect(() => {
     // get navbar height
     const navbarHeight = window.document.getElementById('navbar').clientHeight;
