@@ -1,6 +1,6 @@
-# Budget Tracker
+# React Portfolio
 
-This is a Budget Tracking app in form of a PWA (Progressive Web Application). It it allows user to use the app in offline mode, leveraging a local database whilst the app is in offline mode. Once the app is connected back online, it will sync the locally stored data with the mongoDB server.
+This is an updated version of my portfolio design that has been completly rewritten for react.js.
 
 ## Table of Contents:
 
