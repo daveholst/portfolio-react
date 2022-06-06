@@ -6,7 +6,7 @@ const projectsInfo = [
   {
     index: 1,
     title: 'Coach Roach',
-    liveUrl: 'https://coachroach.me/',
+    liveUrl: 'https://coachroach.holst.club/',
     githubUrl: 'https://github.com/busy-boys/coach-roach',
     description:
       ' A malleable record keeping platform optimised to meet niche internal training structures. Coach Roach is highly customizable and built on bootstrap to allow companies to adjust the appearance of the service to fit corporate branding.It is hosted on a digitalocean VPS running dokku.',
@@ -17,10 +17,10 @@ const projectsInfo = [
   {
     index: 2,
     title: 'moovie.pro',
-    liveUrl: 'https://moovie.pro',
+    liveUrl: 'https://moovie-pro.netlify.app/',
     githubUrl: 'https://github.com/busy-boys/movie-master',
     description:
-      ' moovie.pro is a service for comparing financial information about movies that is CPI adjusted for a faircomparison. It takes into account box-office performance as well as the movies cost of production, this allows us to simply show the user a profit multiplier that allows easy comparison of the financial success of the films.',
+      ' moovie.pro is a service for comparing financial information about movies that is CPI adjusted for a fair comparison. It takes into account box-office performance as well as the movies cost of production, this allows us to simply show the user a profit multiplier that allows easy comparison of the financial success of the films.',
     tech: 'JavaScript, CSS, HTML, omdb API, tmdb API, Utelly API, bulma CSS, netlify',
     thumbnail:
       'https://github.com/busy-boys/movie-master/blob/main/assets/moovie-pro.gif?raw=true',
