@@ -45,7 +45,7 @@ function ProjectCard(props) {
 
       <div className="project-info">
         <h4>
-          <a href={`"${liveUrl}"`}>{title}</a>
+          <a href={liveUrl}>{title}</a>
         </h4>
         <p>{description}</p>
         <h3>tech.</h3>
